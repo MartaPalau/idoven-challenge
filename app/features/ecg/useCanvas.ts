@@ -19,7 +19,6 @@ const useCanvas = (
     const context: CanvasRenderingContext2D | null = canvas.getContext("2d");
     if (context == null) return;
 
-    // draw(context);
     const render = () => {
       drawWave(context, contextData);
     };
