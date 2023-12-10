@@ -5,8 +5,8 @@ import Canvas from "@/app/types/canvas";
 import useCanvas from "./useCanvas";
 
 const Canvas = (props: Canvas) => {
-  const { drawWave, ...rest } = props;
-  const canvasRef = useCanvas(drawWave);
+  const { data, ...rest } = props;
+  const canvasRef = useCanvas(data);
 
   return <canvas data-testid="canvas" ref={canvasRef} {...rest} />;
 };

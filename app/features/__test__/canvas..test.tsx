@@ -1,6 +1,6 @@
 import React from "react";
 import Canvas from "../ecg/canvas";
-import { drawWave } from "../ecg/drawCanvas";
+import { drawWave } from "../ecg/drawCanvas_custom_testing";
 import { cleanup, render } from "@testing-library/react";
 
 afterEach(() => {

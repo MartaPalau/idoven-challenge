@@ -19,10 +19,13 @@
     "@testing-library/jest-dom": "^6.1.5",
     "7zip-bin": "^5.2.0",
     "babel-preset-next": "^1.4.0",
+    "chart.js": "^4.4.1",
+    "chartjs-plugin-zoom": "^2.0.1",
     "next": "14.0.3",
     "node-7z": "^3.0.0",
     "node-7z-forall": "^2.1.5",
     "react": "^18",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
     "ts-node": "^10.9.1"
   },
